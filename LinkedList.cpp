@@ -71,7 +71,7 @@ public:
     void display() {
         if (Size) {
             Node<t> *temp = Head;
-            for (int i = 0; i < Size; i++) {
+            while (temp != nullptr) {
                 cout << temp->value << " ";
                 temp = temp->Next;
             }
