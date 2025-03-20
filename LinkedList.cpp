@@ -93,7 +93,7 @@ public:
     }
 
     bool isEmpty() {
-        return Size;
+        return Size==0;
     }
 
     int size() {
