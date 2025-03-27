@@ -1,5 +1,5 @@
-// using one pointer
-// pop()-> O(n)
+// using two pointer
+// pop()-> O(1)
 // push()-> O(1);
 #include <iostream>
 
