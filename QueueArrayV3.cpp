@@ -1,6 +1,7 @@
-// using one pointer
-// pop()-> O(n)
+// using circular
+// pop()-> O(1)
 // push()-> O(1);
+
 #include <iostream>
 using namespace std;
 template<class T>
